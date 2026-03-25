@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #f5f7fb;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px 24px 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #2563eb;
+}
+
+.cv-header h1 {
+  font-size: 2.2rem;
+  margin: 0 0 8px;
+}
+
+.cv-title {
+  margin: 0 0 6px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.cv-meta {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.cv-section {
+  margin-bottom: 24px;
+}
+
+.cv-section h2 {
+  font-size: 1.15rem;
+  margin: 0 0 10px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e2e8f0;
+  color: #1d4ed8;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.cv-section p {
+  margin: 0 0 8px;
+}
+
+.cv-section ul {
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+
+.cv-section li {
+  margin-bottom: 4px;
+}
+
+.cv-job h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+
+.cv-job-meta {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.cv-tags {
+  font-size: 0.95rem;
+  color: #0f172a;
+}
+
+@media (max-width: 600px) {
+  .cv {
+    margin: 16px;
+    padding: 20px 16px 24px;
+  }
+
+  .cv-header h1 {
+    font-size: 1.7rem;
+  }
+}
